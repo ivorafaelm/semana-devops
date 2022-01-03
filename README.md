@@ -78,10 +78,6 @@ cd cluster
 terraform init
 terraform plan
 terraform apply
-cd ../deployment
-terraform init
-terraform plan
-terraform apply
 ```
 
 Pronto!
