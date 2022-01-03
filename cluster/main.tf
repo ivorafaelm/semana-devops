@@ -13,7 +13,6 @@ provider "kind" {
 
 provider "kubernetes" {
   config_path    = kind_cluster.default.kubeconfig_path
-  #config_context = "kind-${kind_cluster.default.name}"
 }
 
 resource "kind_cluster" "default" {
